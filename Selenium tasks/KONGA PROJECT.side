@@ -1,0 +1,724 @@
+{
+  "id": "d6364aeb-5559-45ee-9344-79a842d454e0",
+  "version": "2.0",
+  "name": "KONGA PROJECT",
+  "url": "https://www.konga.com",
+  "tests": [{
+    "id": "08d954e1-3f9b-4645-84ea-be2f9c678b6f",
+    "name": "categories",
+    "commands": [{
+      "id": "a28574fa-337d-42b0-98df-82b193262a55",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "42b75391-e44b-4c37-9ff4-dd5cfbdee08a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x688",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "71b1595e-93a7-4d66-abb9-727aa8828b5d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=All Categories",
+      "targets": [
+        ["linkText=All Categories", "linkText"],
+        ["css=.f2ace_3rxdC", "css:finder"],
+        ["xpath=//a[contains(text(),'All Categories')]", "xpath:link"],
+        ["xpath=//div[@id='nav-bar-fix']/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'All Categories')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f3843d41-50b7-4b7d-9504-3b89cffda1e9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.ba49d_JVzm4:nth-child(2) > a",
+      "targets": [
+        ["css=.ba49d_JVzm4:nth-child(2) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Phones and Tablets')])[2]", "xpath:link"],
+        ["xpath=//div[@id='subFixId']/div/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/category/phones-tablets-5294')])[4]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div/div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a689aa1f-2e4b-4aa1-ae74-11bd2a7a2cdb",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.\\_4730d_1wcu1 > a",
+      "targets": [
+        ["css=.\\_4730d_1wcu1 > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Home and Kitchen')])[2]", "xpath:link"],
+        ["xpath=//div[@id='subFixId']/div/div/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/category/home-kitchen-602')])[3]", "xpath:href"],
+        ["xpath=//div/div/div/div/ul/li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "818feead-ae03-4cc1-bc35-cfd0a700430d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.\\_4730d_1wcu1 > a",
+      "targets": [
+        ["css=.\\_4730d_1wcu1 > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Baby, Kids and Toys')])[2]", "xpath:link"],
+        ["xpath=//div[@id='subFixId']/div/div/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/category/baby-kids-toys-8')])[3]", "xpath:href"],
+        ["xpath=//div/div/div/div/ul/li[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "884e8958-fb87-4401-8091-c2c7d92e9894",
+      "comment": "",
+      "command": "click",
+      "target": "css=.b6c6f_2H5Pm",
+      "targets": [
+        ["css=.b6c6f_2H5Pm", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec55482e-9cf8-49cd-8ba9-4b325e8a3e12",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "845f8296-f662-426c-b9aa-bfe1843c6e7b",
+    "name": "Selecting item into cart",
+    "commands": [{
+      "id": "5f89d7e6-f8c1-4ff2-ad36-94da1b6b2b8f",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5daaa4a8-28db-4d60-92db-3ba2fb44c456",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x688",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "79fd1a63-6f59-44eb-8578-f75c4c5ddbe5",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,137.3333282470703)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0ea80ff1-de6f-40ba-b93b-f0ff052afafa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_588b5_3MtNs:nth-child(4) .bbe45_3oExY:nth-child(2) section:nth-child(2)",
+      "targets": [
+        ["css=.\\_588b5_3MtNs:nth-child(4) .bbe45_3oExY:nth-child(2) section:nth-child(2)", "css:finder"],
+        ["xpath=//main[@id='mainContent']/section[2]/section[3]/section/ul/li[2]/a/section[2]", "xpath:idRelative"],
+        ["xpath=//li[2]/a/section[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ac5082f-0fd5-43f2-ad52-d75286630385",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "e8ef1230-0efe-4e7d-948a-9413bf8ed98a",
+    "name": "Using the buy now function",
+    "commands": [{
+      "id": "b80777e2-7243-49d7-90fa-88478df348d2",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d8ec8703-4982-4738-9e7c-3a697549345f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x688",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "822fda0c-f0b5-409c-9347-b748d567fc33",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Phones and Tablets",
+      "targets": [
+        ["linkText=Phones and Tablets", "linkText"],
+        ["css=.f2ace_3rxdC", "css:finder"],
+        ["xpath=//a[contains(text(),'Phones and Tablets')]", "xpath:link"],
+        ["xpath=//div[@id='nav-bar-fix']/div[2]/div/a[3]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/category/phones-tablets-5294')])[3]", "xpath:href"],
+        ["xpath=//div[2]/div/a[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "662155fc-b64b-45a1-85d9-76f5442b73bc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ea071_1Hjrs",
+      "targets": [
+        ["css=.ea071_1Hjrs", "css:finder"],
+        ["xpath=//main[@id='mainContent']/section/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//section/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7aaff487-51d7-4620-8577-23cb5dd94bd2",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,298.6666564941406)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1c7c148b-8eb5-4c50-a019-648fad4cc5dc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bbe45_3oExY:nth-child(1) h3",
+      "targets": [
+        ["css=.bbe45_3oExY:nth-child(1) h3", "css:finder"],
+        ["xpath=//main[@id='mainContent']/section[3]/section/section/section/section/ul/li/div/div/div[2]/a/div/h3", "xpath:idRelative"],
+        ["xpath=//a/div/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Apple iPhone 15 Pro 128GB White ...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "98e12145-8ce9-427d-8e7e-1735b2f59df8",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,122)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "16c26a79-2ff3-490c-a1dc-7496bbe234c9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_7bc9f_Ef1Zw .\\_0a08a_3czMG",
+      "targets": [
+        ["css=.\\_7bc9f_Ef1Zw .\\_0a08a_3czMG", "css:finder"],
+        ["xpath=(//button[@type='submit'])[8]", "xpath:attributes"],
+        ["xpath=//main[@id='mainContent']/div[4]/div[3]/div/div[2]/div[2]/form/div[5]/div/button", "xpath:idRelative"],
+        ["xpath=//div[5]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6df19d49-cce6-4e0e-8ec9-beb69653eeb5",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,374)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1c550ff0-c2dc-4654-bac8-7599da50455c",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "c9cdec93-7369-4060-aba2-421accbad5de",
+    "name": "Removing item from cart",
+    "commands": [{
+      "id": "763b690f-81a0-4fe5-84e9-76ae62a982c8",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4afe3729-e378-4178-9f14-760b23cb9ac9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x688",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "94f96ec3-6043-4550-bb19-9f2a3268ded4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_79484_1sLEt > span:nth-child(2)",
+      "targets": [
+        ["css=.\\_79484_1sLEt > span:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='nav-bar-fix']/div/div/div/a[2]/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/a[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'My Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "12dede9f-f813-4b47-9347-4e9e55b6a601",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bdb7c_1Gj3C:nth-child(1) button:nth-child(1) > span",
+      "targets": [
+        ["css=.bdb7c_1Gj3C:nth-child(1) button:nth-child(1) > span", "css:finder"],
+        ["xpath=//div[@id='js-cart-items-wrapper']/div/div/div[3]/form/div/button/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Remove item')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1c259124-df71-4c03-b2ae-45e77bcf78d3",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=button:nth-child(1) > span",
+      "targets": [
+        ["css=button:nth-child(1) > span", "css:finder"],
+        ["xpath=//div[@id='js-cart-items-wrapper']/div/div/div[3]/form/div/button/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Remove item')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "db44edd0-ed8d-4c57-8c23-343cb9c99132",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=button:nth-child(1) > span",
+      "targets": [
+        ["css=button:nth-child(1) > span", "css:finder"],
+        ["xpath=//div[@id='js-cart-items-wrapper']/div/div/div[3]/form/div/button/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Remove item')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb28dc22-f069-497a-ba03-d4ac8cbef365",
+      "comment": "",
+      "command": "click",
+      "target": "css=.baac4_25nec svg",
+      "targets": [
+        ["css=.baac4_25nec svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf266ecc-afff-4509-aa09-a59dcbb471ec",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "d58424d2-3e76-4679-88bb-766525f41c3d",
+    "name": "Sell on Konga function",
+    "commands": [{
+      "id": "5455b268-4ad3-4e02-94c2-b92aa1fe6079",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "84a8d5db-9e5b-4a06-b66a-f18e320c60ee",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x688",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "91a9422e-1944-4cf8-bbba-8fba352b2838",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sell on Konga",
+      "targets": [
+        ["linkText=Sell on Konga", "linkText"],
+        ["css=.ba281_221u4 > .\\_7ad32_SD12Y", "css:finder"],
+        ["xpath=//a[contains(text(),'Sell on Konga')]", "xpath:link"],
+        ["xpath=//div[@id='nav-bar-fix']/div/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/help/sell-on-konga')])[2]", "xpath:href"],
+        ["xpath=//div/div/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5bce7cd4-594d-4ef5-acb7-eaa8e2ad8ea0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Register Now",
+      "targets": [
+        ["linkText=Register Now", "linkText"],
+        ["css=.\\_9ad54_3zMSl:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Register Now')]", "xpath:link"],
+        ["xpath=//main[@id='mainContent']/div[2]/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://shq.konga.com/register?_gl=1*myct6r*_gcl_au*MjEwNjA2MTAzOS4xNzA1MDUyNTAy')]", "xpath:href"],
+        ["xpath=//main/div[2]/div/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Register Now')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win6954",
+      "windowTimeout": 2000
+    }, {
+      "id": "5826689d-43d2-4595-a351-3ccb0c61f208",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a6f21a3f-9bcb-4440-bcb3-dc6710e6e302",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win6954}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "781290b6-1546-4bf2-a35a-2d43b0bf4f3c",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "881cfbc2-b8c5-4189-827c-d293ce228255",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "919a18d7-61ba-4653-9da4-0751329699ab",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "cafcb483-31b8-4018-b69a-6420541b8bb7",
+    "name": "contact us function",
+    "commands": [{
+      "id": "4c9826e4-f9e6-4dd4-8fec-4a962f231c3a",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4253c5a1-20e2-4f25-8136-57f2eec75b8d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x688",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "88156533-36f6-41e4-ab87-14b8b1d72949",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Contact Us",
+      "targets": [
+        ["linkText=Contact Us", "linkText"],
+        ["css=.\\_3b382_2WveR:nth-child(4) .de870_2eIHs:nth-child(2) > a", "css:finder"],
+        ["xpath=//div[@id='nav-bar-fix']/div/div/div/div[3]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/help/contact-us')])[2]", "xpath:href"],
+        ["xpath=//div/div/div/div[3]/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "52d4dcdd-9c3f-4ea4-bb76-fd1215b2a5be",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,146.6666717529297)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1c11dc9a-66c4-4f17-9a73-ac41d23eab81",
+      "comment": "",
+      "command": "click",
+      "target": "css=.b6c6f_2H5Pm",
+      "targets": [
+        ["css=.b6c6f_2H5Pm", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "0940221d-7d0d-4a66-96a5-cda10efbe697",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "a8f9446f-b2b7-4cda-8d60-b0d2ee2d8978",
+    "name": "Check Cart items",
+    "commands": [{
+      "id": "319339fd-b0a2-4e12-a819-f890da7bc647",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8097a956-a2ab-4ccc-b331-4057ba18582d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x688",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b1048e26-86ee-4ac7-afe0-af4beaa61a5f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_79484_1sLEt",
+      "targets": [
+        ["css=.\\_79484_1sLEt", "css:finder"],
+        ["xpath=//div[@id='nav-bar-fix']/div/div/div/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/cart/overview')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "444e3a4c-7645-43ce-90b0-929e1acd2607",
+      "comment": "",
+      "command": "click",
+      "target": "css=.b6c6f_2H5Pm > path",
+      "targets": [
+        ["css=.b6c6f_2H5Pm > path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "4cde0a42-f1d4-4b91-9710-b9e04cd92554",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "624123f9-4789-487d-ba65-d8c33abb4835",
+    "name": "Tracking order",
+    "commands": [{
+      "id": "d80fb30f-035f-44fc-87ac-a96e64cb55a0",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8f29757f-cb42-4a27-ad0d-da01ab46c8e6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x688",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "76725e87-ee22-487a-85aa-7215a8dfdb02",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Track My Order",
+      "targets": [
+        ["linkText=Track My Order", "linkText"],
+        ["css=.de870_2eIHs:nth-child(6) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Track My Order')]", "xpath:link"],
+        ["xpath=//div[@id='nav-bar-fix']/div/div/div/div[4]/div/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://track.konga.com/?_gl=1*2iay6g*_gcl_au*MjEwNjA2MTAzOS4xNzA1MDUyNTAy')]", "xpath:href"],
+        ["xpath=//div[4]/div/ul/li[6]/a", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win5926",
+      "windowTimeout": 2000
+    }, {
+      "id": "c05f3200-269d-418c-af1b-54b94db25f62",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3ced27c2-6124-4cb0-9ba6-ded5f4953cf1",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win5926}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "62811c5c-4dde-48be-be2c-b5a18cfb23a3",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "576746e9-db72-4f54-9a7a-d092913e69a9",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f3e5ad7c-25e8-4767-8b72-5173ed959941",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "bdb5d7e0-6895-477f-98c1-c2af72ff45dd",
+    "name": "Konga Logistics link",
+    "commands": [{
+      "id": "080aec11-ce6f-4061-b52a-f050cd155490",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0b7bf255-4f39-4e5b-82d0-037be14436dd",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x688",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a1bbf518-9e4a-46a6-b69e-688f1e0b7733",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_41783_2ijjb:nth-child(5) .f5e10_VzEXF",
+      "targets": [
+        ["css=.\\_41783_2ijjb:nth-child(5) .f5e10_VzEXF", "css:finder"],
+        ["xpath=//img[@alt='kxpress logistics.']", "xpath:img"],
+        ["xpath=//section[@id='app-content-wrapper']/div[3]/nav/section/a[5]/picture/img", "xpath:idRelative"],
+        ["xpath=//a[5]/picture/img", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win9551",
+      "windowTimeout": 2000
+    }, {
+      "id": "03f6ae7b-8533-487a-a8a7-0b47d1fc7d9a",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f0ee5872-c85e-4ae6-b223-70dfefa776f3",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win9551}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "37eb4d79-f4ea-4319-91ee-2b65e2467e00",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9cd269a0-39da-47f5-a27e-d92780feda05",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e293047c-c8c0-46e4-b2b3-22790e39227f",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "178cc9be-2c10-4424-bb51-5def3777b8b7",
+    "name": "Konga Health Feature",
+    "commands": [{
+      "id": "ed8c00c9-2f40-458f-b026-8859403ea5a4",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8b869ad0-107d-4615-b25d-194fd31d510c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x688",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f32e9d1c-1dc2-4140-b950-c8f5d2238429",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_41783_2ijjb:nth-child(4) .f5e10_VzEXF",
+      "targets": [
+        ["css=.\\_41783_2ijjb:nth-child(4) .f5e10_VzEXF", "css:finder"],
+        ["xpath=//img[@alt='medical direct.']", "xpath:img"],
+        ["xpath=//section[@id='app-content-wrapper']/div[3]/nav/section/a[4]/picture/img", "xpath:idRelative"],
+        ["xpath=//a[4]/picture/img", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win8741",
+      "windowTimeout": 2000
+    }, {
+      "id": "42407920-8a90-4a11-a170-1a3afe9d44e7",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9fbb5d5c-b6d2-49bc-8ae5-158def96a632",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win8741}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b6dd6b66-d476-485e-a0fa-e79ac2a27413",
+      "comment": "",
+      "command": "click",
+      "target": "css=.b6c6f_2H5Pm",
+      "targets": [
+        ["css=.b6c6f_2H5Pm", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "f047eb2a-a695-45c6-b99d-98652b48385f",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "341e54f6-5cac-4228-862a-477172e62804",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "c57b2480-893d-450a-a9ca-27b7db2dce68",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["08d954e1-3f9b-4645-84ea-be2f9c678b6f"]
+  }, {
+    "id": "abfb56de-c0ed-45f6-bedd-cae5dac00be7",
+    "name": "KongaTests",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["08d954e1-3f9b-4645-84ea-be2f9c678b6f", "845f8296-f662-426c-b9aa-bfe1843c6e7b", "e8ef1230-0efe-4e7d-948a-9413bf8ed98a", "c9cdec93-7369-4060-aba2-421accbad5de", "a8f9446f-b2b7-4cda-8d60-b0d2ee2d8978", "178cc9be-2c10-4424-bb51-5def3777b8b7", "bdb5d7e0-6895-477f-98c1-c2af72ff45dd", "d58424d2-3e76-4679-88bb-766525f41c3d", "624123f9-4789-487d-ba65-d8c33abb4835", "cafcb483-31b8-4018-b69a-6420541b8bb7"]
+  }],
+  "urls": ["https://www.konga.com/"],
+  "plugins": []
+}
