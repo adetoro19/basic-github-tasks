@@ -256,7 +256,7 @@
 								"exec": [
 									"const response = pm.response.json();\r",
 									"console.log(response[2].id);\r",
-									""
+									"pm.environment.set(\"JustMyId\",response[2].id)"
 								],
 								"type": "text/javascript"
 							}
@@ -669,7 +669,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n   \"clientName\": \"Afeez\",\n   \"clientEmail\": \"afeez@gmail.com\"\n}",
+					"raw": "{\n   \"clientName\": \"Afeez\",\n   \"clientEmail\": \"afeeza@gmail.com\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
