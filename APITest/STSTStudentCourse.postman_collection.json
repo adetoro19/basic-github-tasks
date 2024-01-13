@@ -349,7 +349,9 @@
 									"    pm.test(\"Successful POST request\", function () {\r",
 									"        pm.expect(pm.response.code).to.be.oneOf([201]);\r",
 									"    });\r",
-									"});"
+									"});\r",
+									"pm.test(\"Status code is 201\", function () {\r",
+									"    pm.response.to.have.status(204)});"
 								],
 								"type": "text/javascript"
 							}
