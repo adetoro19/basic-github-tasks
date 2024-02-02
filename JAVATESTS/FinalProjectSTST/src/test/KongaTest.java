@@ -26,8 +26,7 @@ public class KongaTest {
     //import the selenium WebDriver
     private WebDriver driver;
     @BeforeTest
-    public void start() throws InterruptedException
-    {
+    public void start() throws InterruptedException{
         //locate where the chromedriver is
         System.setProperty("webdriver.chrome.driver", "resources/chromedriver.exe");
         //1. Open your chrome browser
