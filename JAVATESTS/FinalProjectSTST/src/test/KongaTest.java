@@ -10,7 +10,7 @@ package test;
 // Select a Card Payment Method
 // Input invalid card details
 // Print Out the error message: Invalid card number
-// Close the iFrame that displays the input card Modal
+// Close the iFrame that displays the input card Mode
 // Quit the browser.
 
 import org.openqa.selenium.By;
@@ -26,8 +26,7 @@ public class KongaTest {
     //import the selenium WebDriver
     private WebDriver driver;
     @BeforeTest
-    public void start() throws InterruptedException
-    {
+    public void start() throws InterruptedException{
         //locate where the chromedriver is
         System.setProperty("webdriver.chrome.driver", "resources/chromedriver.exe");
         //1. Open your chrome browser
@@ -49,7 +48,7 @@ public class KongaTest {
         //7. Click on the Login
         driver.findElement(By.xpath("//*[@id=\"app-content-wrapper\"]/div[4]/section/section/aside/div[2]/div/form/div[3]")).click();
         Thread.sleep(10000);
-        System.out.println("Successful Logim");
+        System.out.println("Successful Login");
         //8.Get the title of the page
         String pageTitle = driver.getTitle();
         System.out.println("Page Title: " + pageTitle);
@@ -62,7 +61,7 @@ public class KongaTest {
         driver.findElement(By.xpath("//*[@id=\"nav-bar-fix\"]/div[2]/div/a[2]")).click();
         Thread.sleep(10000);
         //10.Select Laptop Subcategory
-        driver.findElement(By.xpath("//*[@id=\"mainContent\"]/section[3]/section/div/section/div[2]/div[2]/ul/li[2]/a/label/span")).click();
+        driver.findElement(By.linkText("Laptops")).click();
         Thread.sleep(10000);
         //11. Select the Apple Macbook option
         driver.findElement(By.xpath("//*[@id=\"mainContent\"]/section[3]/section/div/section/div[2]/div[2]/ul/li[4]/a/ul/li[1]/a/label/span")).click();
@@ -83,7 +82,7 @@ public class KongaTest {
         Thread.sleep(5000);
         System.out.println("Check out to payment");
         // 15. select an address
-        // click on change
+        // 15a. click on change
         driver.findElement(By.xpath("//*[@id=\"mainContent\"]/div/form/div/div[1]/section[1]/div/div/div[1]/div[2]/div/button")).click();
         //15b. click on "add delivery address"
         Thread.sleep(15000);
@@ -125,7 +124,7 @@ public class KongaTest {
         WebElement cardpayment = driver.findElement(By.className("Card"));
         cardpayment.click();
         System.out.println("Select card method");
-        Thread.sleep(5000);
+        Thread.sleep(15000);
     }
 
     @Test (priority = 5)
@@ -144,8 +143,22 @@ public class KongaTest {
         //18c. input CVV in its field
         WebElement cvvdigit = driver.findElement(By.id("cvv"));
         cvvdigit.sendKeys("456");
-        Thread.sleep(5000);
+        Thread.sleep(20000);
         System.out.println("input card details");
+        driver.findElement(By.xpath("//*[@id=\"card-pin-new\"]")).click();
+        Thread.sleep(5000);
+        driver.findElement(By.xpath("//*[@id=\"keypads\"]/button[1]")).click();
+        Thread.sleep(5000);
+        driver.findElement(By.xpath("//*[@id=\"keypads\"]/button[2]")).click();
+        Thread.sleep(5000);
+        driver.findElement(By.xpath("//*[@id=\"keypads\"]/button[3]")).click();
+        Thread.sleep(5000);
+        driver.findElement(By.xpath("//*[@id=\"keypads\"]/button[4]")).click();
+        Thread.sleep(5000);
+        driver.findElement(By.xpath("//*[@id=\"validateCardForm\"]")).click();
+        Thread.sleep(5000);
+        System.out.println("input card pin");
+        Thread.sleep(10000);
     }
 
     @Test (priority = 6)
@@ -154,7 +167,7 @@ public class KongaTest {
         //19 print out the error message
         WebElement error = driver.findElement(By.id("card-number_unhappy"));
         System.out.println(error.getText());
-        Thread.sleep(5000);
+        Thread.sleep(10000);
     }
     @Test (priority = 7)
     public void closeFrame() throws InterruptedException {
@@ -162,7 +175,7 @@ public class KongaTest {
         WebElement exitframe = driver.findElement(By.className("data-card__close"));
         exitframe.click();
         System.out.println("Exit payment method iframe");
-        Thread.sleep(5000);
+        Thread.sleep(10000);
 
     }
     @Test (priority = 8)
@@ -173,7 +186,7 @@ public class KongaTest {
         System.out.println("Restore default page");
     }
     @AfterTest
-    public void quitBrowser() throws InterruptedException {
+    public void quitBrowser() throws InterruptedException{
         //22. Quit your browser
         driver.quit();
         System.out.println("Quit browser");
